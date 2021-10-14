@@ -1,0 +1,35 @@
+//Strings
+includes();
+length();
+substring();
+endsWith();
+indexOf();
+parseInt(num);            //parses the string into integer
+parseFloat(num);          //parses the string into float
+
+//Numbers
+Math.abs();              //returns absolute values
+Math.min();              //returns min value
+Math.max();             //returns max value
+Math.round();        //rounds the Number
+Math.pow(number, power);         //powers the number
+Math.sqrt(number);         //sqrt the number
+
+
+
+//getting input 
+var name = window.promt("What is your name");               //stores the prompt value in var name   
+
+
+
+//array
+var fruits = ["apple", "orange", "banana"];
+fruits.length               //length of array
+fruits.split                //split a string into array elements
+
+
+//functions
+function sayHi(name){
+    console.log("hello " + name);
+}
+sayHi(Joe);
